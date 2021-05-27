@@ -1,0 +1,19 @@
+.background{
+    height: 92vh;
+    width: 100%;
+    background-image: url("../../../img/back1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.background-p{
+    font-size: 92px;
+    font-weight: bold;
+    color: white;
+    font-family: Roboto sans-serif;
+    align-items: center;
+    text-align: center;
+    padding-top: 35%;
+}

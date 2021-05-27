@@ -1,0 +1,68 @@
+.sixth-main {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.sixth-flex {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.six-helper{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.six-left {
+    height: 90%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.six-right {
+    height: 90%;
+    width: 40%;
+}
+
+.six-right img {
+    height: 100%;
+    width: 100%;
+}
+
+.p-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 25%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.p-wrapper p {
+    font-family: Roboto, sans-serif;
+    color: black;
+}
+
+.p-wrapper-p1 {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.p-wrapper-p2 {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.padding{
+    padding-top: 20px;
+}
