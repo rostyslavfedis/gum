@@ -1,7 +1,6 @@
 import config from '../Constants/configServer'
 import axios from 'axios';
 import PropTypes from 'prop-types';
-import {withRouter} from 'react-router-dom';
 
 class _endpoint {
     static Send = 'form/';
@@ -16,7 +15,6 @@ export default class SendService {
 
     static async postUsers(body) {
         try {
-            console.log(body)
             const result = await axios.post(`${config.URL}${_endpoint.Send}`, body);
 
             if (result.status === 200) {

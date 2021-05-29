@@ -1,5 +1,5 @@
 .second-block{
-    height: 100vh;
+    height: fit-content;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -60,6 +60,7 @@
     color: #2F343A;
     font-family: OpenSymbol sans-serif;
     align-items: center;
+    margin-top: 20px;
 }
 
 .black-btn{
