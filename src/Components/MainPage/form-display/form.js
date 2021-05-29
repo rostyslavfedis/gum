@@ -18,7 +18,7 @@ const Form = () => {
         await sendService.postUsers(values);
     }
     return (
-        <div className={'form-div'}>
+        <div id='Contact' className={'form-div'}>
             <div className={'form-wrapper'}>
                 <div className={'top-p'}>
                     <p className={'p-style'}>MAKE A RESERVATION</p>

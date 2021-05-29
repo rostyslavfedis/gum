@@ -5,7 +5,7 @@ import img from '../../../img/fourthD/pexelsphoto1370750.jpeg'
 class FourthDisplay extends Component {
     render() {
         return (
-            <div className={'fourth-main'}>
+            <div id='AboutUs' className={'fourth-main'}>
                 <div className={'fourth-wrapper'}>
                     <div className={'img-wrapper'}>
                         <img src={img}/>

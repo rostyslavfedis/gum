@@ -16,12 +16,10 @@ export default class SendService {
     static async postUsers(body) {
         try {
             const result = await axios.post(`${config.URL}${_endpoint.Send}`, body);
-
             if (result.status === 200) {
                 this.props.history.push('/');
             }
         } catch (e) {
-            console.log(e)
             return e
         }
     }

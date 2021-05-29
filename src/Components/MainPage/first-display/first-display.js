@@ -4,7 +4,7 @@ import './first-display.css'
 class FirstDisplay extends Component {
     render() {
         return (
-            <div className={'background'}>
+            <div id='Main' className={'background'}>
                 <p className={'background-p'}>LIVE. MOVE. REFUEL.</p>
             </div>
         );

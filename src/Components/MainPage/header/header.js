@@ -11,9 +11,9 @@ class Header extends Component {
                     <img src={logo}/>
                 </div>
                 <div className={'div-right'}>
-                    <p>Main</p>
-                    <p>About us</p>
-                    <p>Contacts</p>
+                    <a href='#Main'>Main</a>
+                    <a href='#AboutUs'>About us</a>
+                    <a href='#Contact'>Contact</a>
                 </div>
             </div>
         );
